@@ -9,3 +9,6 @@ def portfolio(request):
 
 def contact(request):
     return render(request, "core/contact.html")
+
+def aboutme(request):
+    return render(request, "core/about-me.html")
